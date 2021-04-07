@@ -1,0 +1,191 @@
+@import '../theme';
+
+.container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+
+    background: $background;
+}
+
+// Navigation Bar
+.navigation {
+    position: fixed;
+    width: 17.5vw;
+    height: 100%;
+
+    top: 0;
+
+    background: $blue-dark;
+
+    transition: all .2s;
+    overflow: hidden;
+}
+
+.navigation > ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
+
+.navigation > ul > li {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.navigation > ul > li:hover {
+    background: $blue-light;
+}
+
+.navigation > ul > li:nth-child(1):hover {
+    background: transparent;
+}
+
+.icon > img {
+    width: 4rem;
+    padding: 20px;
+}
+
+
+
+// Header
+.headerContainer {
+    position: fixed;
+
+    width: 82.5vw;
+    height: 80px;
+
+    top: 0;
+    left: 17.5vw;
+
+    background: $white;
+
+    display: flex;
+    
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+}
+
+.burgerContainer, .accountContainer {
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 20px;
+}
+
+.burgerContainer  > img, .accountContainer  > img {
+    width: 3rem;
+    transform: scaleX(-1);
+
+    cursor: pointer;
+}
+
+.burgerContainer  > img {
+    width: 2.5rem;
+}
+
+.accountContainer  > img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.searchContainer {
+    width: 80%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContainer > input {
+    width: 35%;
+    height: 60%;
+
+    border: 1px solid $black;
+    border-radius: 35px;
+
+    padding-left: 20px;
+
+    outline: none;
+
+    color: $black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.searchContainer > input::placeholder {
+    opacity: .55;
+}
+
+
+
+// Card Container
+.cardsContainer {
+    width: 82.5vw;
+    height: 25vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-left: 17.5vw;
+    margin-top: 80px;
+}
+
+.card {
+    width: 16vw;
+    height: 80%;
+
+    background: $white;
+    border-radius: 5px;
+
+    margin-left: 1vw;
+
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+}
+
+
+
+// Table Container
+
+.tableContainer {
+    width: 82.5vw;
+    height: 60vh;
+    margin-left: 17.5vw;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-left: 1vw;
+}
+
+.table {
+    width: 80vw;
+    height: 100%;
+
+    background: $white;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+}
