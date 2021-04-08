@@ -28,13 +28,13 @@ export default function Home() {
             <Header />
 
             <div className={styles.cardsContainer}>
-              <Card />
+              <Card value="1,042" title="Daily Views" src="/icons/eye.svg" />
 
-              <Card />
+              <Card value="80" title="Sales" src="/icons/cart.svg" />
 
-              <Card />
+              <Card value="208" title="Comments" src="/icons/message.svg" />
 
-              <Card />
+              <Card value="$6,042" title="Earning" src="/icons/money.svg" />
             </div>
 
             <div className={styles.tableContainer}>

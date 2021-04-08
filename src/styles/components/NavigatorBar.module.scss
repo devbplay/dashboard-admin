@@ -10,6 +10,12 @@
     overflow-x: auto;
 }
 
+@media only screen and (max-width: 1200px) {
+    .navigation {
+        width: 65px !important;
+    }
+}
+
 .navigation > ul {
     width: 100%;
 }
