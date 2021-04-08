@@ -1,0 +1,13 @@
+@import '../theme';
+
+.table {
+    width: 98%;
+    height: 100%;
+
+    background: $white;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.05);
+}
