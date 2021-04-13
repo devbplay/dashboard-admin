@@ -1,9 +1,7 @@
-<h1 align="left">Math's Brain</h1>
-
-</h1>
+<h1 align="left">Dashboard Admin (only front end)</h1>
 
 <p align="left">
-	Math's Brain is a personal website, where you have access to all my social networks and my portfolio.
+	This is an admin dashboard in order to be simple and light.
 </p>
 
 <img src="/public/dashboard.png" alt="License MIT">
@@ -22,8 +20,8 @@ This app features all the latest tools and practices in web development!
 
 ## Getting started
 
-1. Clone this repo using `git clone git@github.com:CarlosLevir/tindev.git`
-2. Move yourself to the appropriate directory: `cd mathsbrain`<br />
+1. Clone this repo using `git clone git@github.com:devbplay/dashboard-admin.git`
+2. Move yourself to the appropriate directory: `cd dashboard-admin`<br />
 3. Run `yarn` to install dependencies<br />
 4. Run `yarn dev` to start the project
 
